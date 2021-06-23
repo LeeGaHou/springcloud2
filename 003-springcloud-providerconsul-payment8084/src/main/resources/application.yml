@@ -1,0 +1,16 @@
+###consul服务端口号
+server:
+  port: 8084
+
+spring:
+  application:
+    name: springcloud-providerconsul-payment8084
+####consul注册中心地址
+#注意：若使用consul注册中心，服务名必须以字母开头，以字母或数字结尾，并且只有字母、数字和连字符作为内部字符
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        #hostname: 127.0.0.1
+        service-name: ${spring.application.name}
