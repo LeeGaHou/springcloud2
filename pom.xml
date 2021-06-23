@@ -15,12 +15,11 @@
         <module>001-springcloud-eureka-7002</module>
         <module>001-springcloud-eureka-7003</module>
         <module>001-springcloud-provider-payment8082</module>
-        <module>001-springcloud-provider-payment8083</module>
-        <module>001-springcloud-consumerzk-payment80</module>
+        <module>002-springcloud-providerzk-payment8083</module>
+        <module>002-springcloud-consumerzk-payment80</module>
         <module>003-springcloud-providerconsul-payment8084</module>
         <module>003-springcloud-consumerconsul-payment80</module>
         <module>004-springcloud-consumer-feign-payment80</module>
-        <module>005-springcloud-hystrix-provider-8084</module>
         <module>005-springcloud-hystrix-provider-8085</module>
         <module>005-springcloud-hystrix-consumer-80</module>
         <module>006-springcloud-gateway-9527</module>
