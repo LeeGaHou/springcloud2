@@ -23,6 +23,7 @@
         <module>005-springcloud-hystrix-provider-8085</module>
         <module>005-springcloud-hystrix-consumer-80</module>
         <module>006-springcloud-gateway-9527</module>
+        <module>springcloud-config-center-3344</module>
     </modules>
     <packaging>pom</packaging>
 
